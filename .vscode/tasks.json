@@ -1,0 +1,41 @@
+{
+
+  "version": "2.0.0",
+  "tasks": [
+      {
+        "label": "Build Python Env",
+        "type": "shell",
+        "group": {
+            "kind": "build",
+            "isDefault": true
+        },
+        "linux": {
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "command": "python3 -m venv venv && source venv/bin/activate && deactivate venv"
+        },          
+        "problemMatcher": []
+      },
+      {
+        "label": "runserver",
+        "type": "shell",
+        "command": "python3 manage.py runserver",
+        "problemMatcher": []
+      },
+      // {
+      //   "label": "stopserver",
+      //   "type": "shell",
+      //   "command": "bash",
+      //   "args": ["-c", "pkill -f 'python3 manage.py runserver'"],
+      //   "problemMatcher": []
+      // },
+      {
+        "label": "stopserver",
+        "type": "shell",
+        "command": "pkill -f 'python3 manage.py runserver'",
+        "problemMatcher": []
+      }
+    
+  ]
+}
