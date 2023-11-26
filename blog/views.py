@@ -10,6 +10,10 @@ def blog(request):
   return render(request, 'posts.html', {'blogs':blogs})
 
 def blog_detail(request, blog_id):
+  """
+  Consultar a la base de datos el id si existe o no,
+  para retornar una publicación
+  """
   blog=get_object_or_404(Post, pk=blog_id)
   return render(request, 'post_detail.html', {'blog':blog})
 
