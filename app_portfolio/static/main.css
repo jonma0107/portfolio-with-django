@@ -1,0 +1,25 @@
+body {
+  background: #090909;
+}
+.logo {
+  width: 65px;
+  height: 65px;  
+}
+.navbar {
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.profile {
+  width: 250px;
+  height: 350px;
+}
+
+/* HOVER */
+.card-project:hover {
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+/* FOOTER */
