@@ -1,8 +1,23 @@
 {% extends 'layout.html' %}
 
+
 {% block content %}
 
-<h1>HOLA MUNDO</h1>
+{% load static %}
+
+<header class="row">
+  <div class="col-md-4">
+    <img class="profile" src="{% static 'files/perfil2.webp' %}" alt="profile">
+  </div>
+  <div class="col-md-8 my-auto">
+    <h1>I am <strong>Jonathan Meza</strong></h1>
+    <h3>Python FullStack Developer</h3>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptates laudantium ipsam esse, id natus quos vero quas, magnam delectus tenetur dolor aliquid quod nemo, reiciendis ad. Distinctio ducimus iure dolore tempora laudantium quod reprehenderit ipsam aspernatur amet accusamus ea neque, praesentium corrupti laborum omnis quaerat rem sapiente architecto. Sapiente quae iste eveniet esse amet expedita, provident sunt odio illo accusantium sint. Placeat veritatis facilis assumenda exercitationem cumque quia rerum, temporibus quam dolore adipisci! Hic odit explicabo accusamus consequatur consectetur eos consequuntur dolore itaque esse aperiam quibusdam maiores voluptatum quaerat ipsa ad debitis illum, pariatur eveniet, alias incidunt non ratione?
+    </p>
+    <a href="{% static 'files/resume.pdf'%}" class="btn btn-primary btn-lg rounded-0 my-3" target="_blank">Download CV</a>
+  </div>  
+</header>
 
 {% comment %} RECORRER LA CONSULTA {% endcomment %}
 
@@ -13,7 +28,7 @@
 <img src="{{project.image.url}}" alt="" width="150" height="100">
 
 {% if project.url %}
-<a href="{{project.url}}">{{project.url}}/a>
+<a href="{{project.url}}">{{project.url}}</a>
 {% endif %}
 
 {% endfor%}
