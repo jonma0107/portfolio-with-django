@@ -1,6 +1,10 @@
 body {
   background: #090909;
 }
+.bg-black {
+  background: #000;
+}
+
 .logo {
   width: 65px;
   height: 65px;  
