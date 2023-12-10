@@ -22,8 +22,9 @@ body {
 
 /* HOVER */
 .card-project:hover {
-  border: 1px solid #fff;
+  border: 1px solid rgb(13, 202, 240);
   cursor: pointer;
 }
+
 
 /* FOOTER */
