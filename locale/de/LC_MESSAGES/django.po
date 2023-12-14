@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-12 15:21+0900\n"
+"POT-Creation-Date: 2023-12-14 14:49+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: app_blog/models.py:9
-msgid "contenido"
+#: app_blog/models.py:9 app_portfolio/models.py:11
+msgid "titulo"
 msgstr ""
 
-#: app_blog/models.py:12 app_portfolio/models.py:11
-msgid "titulo"
+#: app_blog/models.py:10
+msgid "contenido"
 msgstr ""
 
 #: app_blog/templates/posts.html:6
@@ -45,7 +45,13 @@ msgid ""
 "implementation of complete and efficient web applications. My versatile "
 "approach has allowed me to contribute to both client-side and server-side "
 "development, providing comprehensive and functional solutions."
-msgstr "Auf Python spezialisierter Full-Stack-Entwickler mit einem starken Hintergrund im Software-Engineering und nachgewiesener Erfahrung in der Konzeption, Entwicklung und Implementierung vollständiger und effizienter Webanwendungen. Mein vielseitiger Ansatz hat es mir ermöglicht, sowohl zur clientseitigen als auch zur serverseitigen Entwicklung beizutragen und umfassende und funktionale Lösungen anzubieten."
+msgstr ""
+"Auf Python spezialisierter Full-Stack-Entwickler mit einem starken "
+"Hintergrund im Software-Engineering und nachgewiesener Erfahrung in der "
+"Konzeption, Entwicklung und Implementierung vollständiger und effizienter "
+"Webanwendungen. Mein vielseitiger Ansatz hat es mir ermöglicht, sowohl zur "
+"clientseitigen als auch zur serverseitigen Entwicklung beizutragen und "
+"umfassende und funktionale Lösungen anzubieten."
 
 #: app_portfolio/templates/home.html:36
 msgid "My Projects"
@@ -56,9 +62,16 @@ msgid ""
 "Each project is a journey where curiosity and creativity intertwine, guiding "
 "me through challenges towards ingenious solutions and exceptional digital "
 "experiences."
-msgstr "Jedes Projekt ist eine Reise, auf der sich Neugier und Kreativität miteinander verbinden und mich durch Herausforderungen zu genialen Lösungen und außergewöhnlichen digitalen Erlebnissen führen."
+msgstr ""
+"Jedes Projekt ist eine Reise, auf der sich Neugier und Kreativität "
+"miteinander verbinden und mich durch Herausforderungen zu genialen Lösungen "
+"und außergewöhnlichen digitalen Erlebnissen führen."
 
-#: app_portfolio/templates/partials/navbar.html:19
+#: app_portfolio/templates/partials/navbar.html:35
+msgid "Go"
+msgstr "Gehen"
+
+#: app_portfolio/templates/partials/navbar.html:39
 msgid "Download CV"
 msgstr "Herunterladen CV"
 

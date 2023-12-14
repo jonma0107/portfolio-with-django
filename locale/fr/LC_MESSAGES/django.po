@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-12 15:14+0900\n"
+"POT-Creation-Date: 2023-12-14 14:47+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: app_blog/models.py:9
-msgid "contenido"
+#: app_blog/models.py:9 app_portfolio/models.py:11
+msgid "titulo"
 msgstr ""
 
-#: app_blog/models.py:12 app_portfolio/models.py:11
-msgid "titulo"
+#: app_blog/models.py:10
+msgid "contenido"
 msgstr ""
 
 #: app_blog/templates/posts.html:6
@@ -45,7 +45,13 @@ msgid ""
 "implementation of complete and efficient web applications. My versatile "
 "approach has allowed me to contribute to both client-side and server-side "
 "development, providing comprehensive and functional solutions."
-msgstr "Développeur full-stack spécialisé en Python avec une solide formation en ingénierie logicielle et une expérience éprouvée dans la conception, le développement et la mise en œuvre d'applications web complètes et efficaces. Mon approche polyvalente m'a permis de contribuer au développement côté client et côté serveur, en fournissant des solutions complètes et fonctionnelles."
+msgstr ""
+"Développeur full-stack spécialisé en Python avec une solide formation en "
+"ingénierie logicielle et une expérience éprouvée dans la conception, le "
+"développement et la mise en œuvre d'applications web complètes et efficaces. "
+"Mon approche polyvalente m'a permis de contribuer au développement côté "
+"client et côté serveur, en fournissant des solutions complètes et "
+"fonctionnelles."
 
 #: app_portfolio/templates/home.html:36
 msgid "My Projects"
@@ -56,9 +62,16 @@ msgid ""
 "Each project is a journey where curiosity and creativity intertwine, guiding "
 "me through challenges towards ingenious solutions and exceptional digital "
 "experiences."
-msgstr "Chaque projet est un voyage où la curiosité et la créativité s'entremêlent, me guidant à travers les défis vers des solutions ingénieuses et des expériences numériques exceptionnelles."
+msgstr ""
+"Chaque projet est un voyage où la curiosité et la créativité s'entremêlent, "
+"me guidant à travers les défis vers des solutions ingénieuses et des "
+"expériences numériques exceptionnelles."
 
-#: app_portfolio/templates/partials/navbar.html:19
+#: app_portfolio/templates/partials/navbar.html:35
+msgid "Go"
+msgstr "Aller"
+
+#: app_portfolio/templates/partials/navbar.html:39
 msgid "Download CV"
 msgstr "Télécharger CV"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-12 15:29+0900\n"
+"POT-Creation-Date: 2023-12-14 14:50+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,12 +20,12 @@ msgstr ""
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: app_blog/models.py:9
-msgid "contenido"
+#: app_blog/models.py:9 app_portfolio/models.py:11
+msgid "titulo"
 msgstr ""
 
-#: app_blog/models.py:12 app_portfolio/models.py:11
-msgid "titulo"
+#: app_blog/models.py:10
+msgid "contenido"
 msgstr ""
 
 #: app_blog/templates/posts.html:6
@@ -47,7 +47,13 @@ msgid ""
 "implementation of complete and efficient web applications. My versatile "
 "approach has allowed me to contribute to both client-side and server-side "
 "development, providing comprehensive and functional solutions."
-msgstr "Full-stack разработчик, специализирующийся на Python, с сильным опытом в области разработки программного обеспечения и доказанным опытом в проектировании, разработке и внедрении полных и эффективных веб-приложений. Мой разносторонний подход позволяет мне участвовать в разработке как на стороне клиента, так и на стороне сервера, предоставляя комплексные и функциональные решения."
+msgstr ""
+"Full-stack разработчик, специализирующийся на Python, с сильным опытом в "
+"области разработки программного обеспечения и доказанным опытом в "
+"проектировании, разработке и внедрении полных и эффективных веб-приложений. "
+"Мой разносторонний подход позволяет мне участвовать в разработке как на "
+"стороне клиента, так и на стороне сервера, предоставляя комплексные и "
+"функциональные решения."
 
 #: app_portfolio/templates/home.html:36
 msgid "My Projects"
@@ -58,9 +64,16 @@ msgid ""
 "Each project is a journey where curiosity and creativity intertwine, guiding "
 "me through challenges towards ingenious solutions and exceptional digital "
 "experiences."
-msgstr "Каждый проект - это путешествие, в котором переплетаются любопытство и творчество, направляя меня через трудности к гениальным решениям и исключительному цифровому опыту."
+msgstr ""
+"Каждый проект - это путешествие, в котором переплетаются любопытство и "
+"творчество, направляя меня через трудности к гениальным решениям и "
+"исключительному цифровому опыту."
 
-#: app_portfolio/templates/partials/navbar.html:19
+#: app_portfolio/templates/partials/navbar.html:35
+msgid "Go"
+msgstr "перейти"
+
+#: app_portfolio/templates/partials/navbar.html:39
 msgid "Download CV"
 msgstr "Скачать резюме"
 

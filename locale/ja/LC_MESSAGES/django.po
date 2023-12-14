@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-12 15:25+0900\n"
+"POT-Creation-Date: 2023-12-14 14:46+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: app_blog/models.py:9
-msgid "contenido"
+#: app_blog/models.py:9 app_portfolio/models.py:11
+msgid "titulo"
 msgstr ""
 
-#: app_blog/models.py:12 app_portfolio/models.py:11
-msgid "titulo"
+#: app_blog/models.py:10
+msgid "contenido"
 msgstr ""
 
 #: app_blog/templates/posts.html:6
@@ -45,7 +45,12 @@ msgid ""
 "implementation of complete and efficient web applications. My versatile "
 "approach has allowed me to contribute to both client-side and server-side "
 "development, providing comprehensive and functional solutions."
-msgstr "Pythonに特化したフルスタック開発者であり、ソフトウェアエンジニアリングの強力なバックグラウンドと、完全かつ効率的なWebアプリケーションの設計、開発、実装における実証済みの経験を持つ。多才なアプローチにより、クライアントサイドとサーバーサイドの両方の開発に貢献し、包括的で機能的なソリューションを提供しています。"
+msgstr ""
+"Pythonに特化したフルスタック開発者であり、ソフトウェアエンジニアリングの強力"
+"なバックグラウンドと、完全かつ効率的なWebアプリケーションの設計、開発、実装に"
+"おける実証済みの経験を持つ。多才なアプローチにより、クライアントサイドとサー"
+"バーサイドの両方の開発に貢献し、包括的で機能的なソリューションを提供していま"
+"す。"
 
 #: app_portfolio/templates/home.html:36
 msgid "My Projects"
@@ -56,9 +61,15 @@ msgid ""
 "Each project is a journey where curiosity and creativity intertwine, guiding "
 "me through challenges towards ingenious solutions and exceptional digital "
 "experiences."
-msgstr "どのプロジェクトも、好奇心と創造性が絡み合う旅であり、独創的なソリューションと卓越したデジタル体験へと課題を導いてくれる。"
+msgstr ""
+"どのプロジェクトも、好奇心と創造性が絡み合う旅であり、独創的なソリューション"
+"と卓越したデジタル体験へと課題を導いてくれる。"
 
-#: app_portfolio/templates/partials/navbar.html:19
+#: app_portfolio/templates/partials/navbar.html:35
+msgid "Go"
+msgstr "行く"
+
+#: app_portfolio/templates/partials/navbar.html:39
 msgid "Download CV"
 msgstr "履歴書ダウンロード"
 
