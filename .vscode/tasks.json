@@ -20,22 +20,22 @@
       {
         "label": "runserver",
         "type": "shell",
-        "command": "python3 manage.py runserver",
+        "command": "./venv/bin/python ./manage.py runserver",
+        "problemMatcher": []
+      },
+      {
+        "label": "stopserver",
+        "type": "shell",
+        "command": "bash",
+        "args": ["-c", "pkill -f 'python3 manage.py runserver'"],
         "problemMatcher": []
       },
       // {
       //   "label": "stopserver",
       //   "type": "shell",
-      //   "command": "bash",
-      //   "args": ["-c", "pkill -f 'python3 manage.py runserver'"],
+      //   "command": "pkill -f 'python3 manage.py runserver'",
       //   "problemMatcher": []
-      // },
-      {
-        "label": "stopserver",
-        "type": "shell",
-        "command": "pkill -f 'python3 manage.py runserver'",
-        "problemMatcher": []
-      }
+      // }
     
   ]
 }
