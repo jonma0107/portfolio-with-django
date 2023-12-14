@@ -1,9 +1,15 @@
 from django.db import models
+from django.utils.translation import gettext_lazy as _
+from parler.models import TranslatableModel, TranslatedFields
 
 
-class Project(models.Model):
-  title = models.CharField(max_length=150)
-  description = models.CharField(max_length=250)
+class Project(TranslatableModel):
+  translations = TranslatedFields(
+        description = models.CharField(max_length=250, verbose_name=_("descripcion"))
+    )
+  
+  title = models.CharField(max_length=150, verbose_name=_("titulo"))
+  
   image = models.ImageField(upload_to='portfolio/images/')
   url = models.URLField(blank=True)
 
