@@ -130,7 +130,7 @@ env.bak/
 venv.bak/
 
 media
-.vscode
+# .vscode
 
 # Spyder project settings
 .spyderproject
