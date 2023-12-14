@@ -26,5 +26,9 @@ body {
   cursor: pointer;
 }
 
+/* Dimensiones imagen post_detail */
+.img-sm {
+  max-width: 50%; /* Puedes ajustar el porcentaje según tus necesidades */
+}
 
 /* FOOTER */
