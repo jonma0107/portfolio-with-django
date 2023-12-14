@@ -20,7 +20,7 @@
       {
         "label": "runserver",
         "type": "shell",
-        "command": "./venv/bin/python ./manage.py runserver",
+        "command": "./venv/bin/python3 ./manage.py runserver",
         "problemMatcher": []
       },
       {
