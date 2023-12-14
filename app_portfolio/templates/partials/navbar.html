@@ -13,13 +13,32 @@
     </button>
 
     <div class="collapse navbar-collapse pb-4" id="navbarNav">
-      <ul class="navbar-nav ms-auto mt-4 d-flex align-items-center"> <!-- mover a la derecha -->        
+      <ul class="navbar-nav ms-auto mt-4 d-flex align-items-center"> <!-- mover a la derecha --> 
+
         <li class="nav-item">
           <a class="nav-link" href="{% url 'post:post' %}">Blog</a>
-        </li>
+        </li>      
+        
+        <form action="{% url 'set_language' %}" method="post">
+          {% csrf_token %}
+          <input name="next" type="hidden" value="{{ redirect_to }}">
+          <select name="language">
+              {% get_current_language as LANGUAGE_CODE %}
+              {% get_available_languages as LANGUAGES %}
+              {% get_language_info_list for LANGUAGES as languages %}
+              {% for language in languages %}
+                  <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+                      {{ language.name_local }} ({{ language.code }})
+                  </option>
+              {% endfor %}
+          </select>
+          <input type="submit" value= {% trans "Go" %} class="btn btn-primary py-1">
+        </form>            
+        
         <li class="nav-item">
-          <a class="btn btn-primary btn-block" href="{% static 'files/resume.pdf' %}" target="_blank" style="width: 100%;"> {% trans "Download CV" %} </a>
-        </li>        
+          <a class="btn btn-primary btn-block mx-2 py-1" href="{% static 'files/resume.pdf' %}" target="_blank" style="width: 90%;"> {% trans "Download CV" %} </a>
+        </li>
+               
       </ul>      
     </div>
 
