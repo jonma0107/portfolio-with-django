@@ -2,6 +2,7 @@ asgiref==3.7.2
 dj-database-url==2.1.0
 Django==4.2.7
 django-parler==2.3
+djangorestframework==3.14.0
 djangorestframework-jwt==1.11.0
 gunicorn==21.2.0
 packaging==23.2
@@ -10,6 +11,7 @@ psycopg2==2.9.9
 psycopg2-binary==2.9.9
 PyJWT==1.7.1
 python-gettext==5.0
+pytz==2023.3.post1
 sqlparse==0.4.4
 typing_extensions==4.8.0
 whitenoise==6.6.0
