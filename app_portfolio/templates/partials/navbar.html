@@ -12,13 +12,14 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse pb-4" id="navbarNav">
-      <ul class="navbar-nav ms-auto mt-4 d-flex align-items-center"> <!-- mover a la derecha --> 
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto d-flex align-items-center"> <!-- mover a la derecha --> 
 
         <li class="nav-item">
           <a class="nav-link" href="{% url 'post:post' %}">Blog</a>
         </li>      
         
+        <li class="nav-item">
         <form action="{% url 'set_language' %}" method="post">
           {% csrf_token %}
           <input name="next" type="hidden" value="{{ redirect_to }}">
@@ -33,7 +34,8 @@
               {% endfor %}
           </select>
           <input type="submit" value= {% trans "Go" %} class="btn btn-primary py-1">
-        </form>            
+        </form>
+        </li>            
         
         <li class="nav-item">
           <a class="btn btn-primary btn-block mx-2 py-1" href="{% static 'files/resume.pdf' %}" target="_blank" style="width: 90%;"> {% trans "Download CV" %} </a>
