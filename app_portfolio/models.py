@@ -12,6 +12,7 @@ class Project(TranslatableModel):
   
   image = models.ImageField(upload_to='portfolio/images/')
   url = models.URLField(blank=True)
+  demo = models.URLField(blank=True)
 
   def __str__(self):
       return self.title
