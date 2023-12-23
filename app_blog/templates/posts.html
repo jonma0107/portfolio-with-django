@@ -17,7 +17,7 @@
         <h1>{{post.title}}</h1>
         <p>{{post.description|truncatechars:50}}</p>
         <h2>{{post.date|date:'M d Y'|upper}}</h2>
-        <a href="{% url 'post:post_detail' post.id %}" class="btn btn-primary">{{post.title}}</a>
+        <a href="{% url 'post:post_detail' post.id %}" class="buttonHover rounded-0 btn-sm btn"> {% trans "Read more" %} </a>        
       </div>
     </div>
   

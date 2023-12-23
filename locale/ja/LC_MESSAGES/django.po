@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-14 14:46+0900\n"
+"POT-Creation-Date: 2023-12-23 05:06-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,6 +29,10 @@ msgstr ""
 #: app_blog/templates/posts.html:6
 msgid "POSTS"
 msgstr "出版物"
+
+#: app_blog/templates/posts.html:20
+msgid "Read more"
+msgstr "もっと読む"
 
 #: app_portfolio/models.py:8
 msgid "descripcion"
@@ -52,11 +56,11 @@ msgstr ""
 "バーサイドの両方の開発に貢献し、包括的で機能的なソリューションを提供していま"
 "す。"
 
-#: app_portfolio/templates/home.html:36
+#: app_portfolio/templates/home.html:32
 msgid "My Projects"
 msgstr "私のプロジェクト"
 
-#: app_portfolio/templates/home.html:38
+#: app_portfolio/templates/home.html:34
 msgid ""
 "Each project is a journey where curiosity and creativity intertwine, guiding "
 "me through challenges towards ingenious solutions and exceptional digital "
@@ -65,35 +69,35 @@ msgstr ""
 "どのプロジェクトも、好奇心と創造性が絡み合う旅であり、独創的なソリューション"
 "と卓越したデジタル体験へと課題を導いてくれる。"
 
-#: app_portfolio/templates/partials/navbar.html:35
+#: app_portfolio/templates/partials/navbar.html:36
 msgid "Go"
 msgstr "行く"
 
-#: app_portfolio/templates/partials/navbar.html:39
+#: app_portfolio/templates/partials/navbar.html:41
 msgid "Download CV"
 msgstr "履歴書ダウンロード"
 
-#: portfolio/settings.py:139
+#: portfolio/settings.py:150
 msgid "Spanish"
 msgstr ""
 
-#: portfolio/settings.py:140
+#: portfolio/settings.py:151
 msgid "English"
 msgstr ""
 
-#: portfolio/settings.py:141
+#: portfolio/settings.py:152
 msgid "Japanese"
 msgstr ""
 
-#: portfolio/settings.py:142
+#: portfolio/settings.py:153
 msgid "French"
 msgstr ""
 
-#: portfolio/settings.py:143
+#: portfolio/settings.py:154
 msgid "German"
 msgstr ""
 
-#: portfolio/settings.py:144
+#: portfolio/settings.py:155
 msgid "Russian"
 msgstr ""
 
