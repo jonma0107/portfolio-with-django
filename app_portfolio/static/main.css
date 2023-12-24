@@ -73,3 +73,26 @@ body {
     transform: rotateY(360deg);
   }
 }
+
+/* SPAN */
+span {
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 2px solid;
+  width: 47ch;
+  overflow: hidden;
+
+  animation: typing 15s steps(47) infinite, blink .6s infinite step-end alternate;
+}
+
+@keyframes typing {
+  0%, 30% { width: 0 }
+  40%, 100% { width: 47ch}
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+
