@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-23 05:04-0500\n"
+"POT-Creation-Date: 2023-12-25 16:05+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,46 +38,30 @@ msgstr "Lire plus"
 msgid "descripcion"
 msgstr ""
 
-#: app_portfolio/templates/home.html:16
-msgid "I am"
-msgstr "Je suis"
-
-#: app_portfolio/templates/home.html:19
+#: app_portfolio/templates/home.html:21
 msgid ""
-"Full-stack developer specialized in Python with a strong background in "
+"Full stack developer specialized in Python with a solid background in "
 "software engineering and proven experience in the design, development and "
-"implementation of complete and efficient web applications. My versatile "
-"approach has allowed me to contribute to both client-side and server-side "
-"development, providing comprehensive and functional solutions."
-msgstr ""
-"Développeur full-stack spécialisé en Python avec une solide formation en "
-"ingénierie logicielle et une expérience éprouvée dans la conception, le "
-"développement et la mise en œuvre d'applications web complètes et efficaces. "
-"Mon approche polyvalente m'a permis de contribuer au développement côté "
-"client et côté serveur, en fournissant des solutions complètes et "
-"fonctionnelles."
+"implementation of efficient web applications. I contribute in both front-end "
+"and back-end development thanks to my versatile approach, providing complete "
+"and functional solutions."
+msgstr "Développeur full stack spécialisé en Python avec une solide formation en ingénierie logicielle et une expérience éprouvée dans la conception, le développement et la mise en œuvre d'applications web efficaces. Je contribue à la fois au développement front-end et back-end grâce à mon approche polyvalente, fournissant des solutions complètes et fonctionnelles."
 
-#: app_portfolio/templates/home.html:32
+#: app_portfolio/templates/home.html:25
+msgid "Download CV"
+msgstr "Télécharger CV"
+
+#: app_portfolio/templates/home.html:35
 msgid "My Projects"
 msgstr "Mes projets"
 
-#: app_portfolio/templates/home.html:34
-msgid ""
-"Each project is a journey where curiosity and creativity intertwine, guiding "
-"me through challenges towards ingenious solutions and exceptional digital "
-"experiences."
-msgstr ""
-"Chaque projet est un voyage où la curiosité et la créativité s'entremêlent, "
-"me guidant à travers les défis vers des solutions ingénieuses et des "
-"expériences numériques exceptionnelles."
+#: app_portfolio/templates/home.html:37
+msgid "Each project is a journey where curiosity and creativity intertwine."
+msgstr "Chaque projet est un voyage où curiosité et créativité s'entremêlent."
 
 #: app_portfolio/templates/partials/navbar.html:36
 msgid "Go"
 msgstr "Aller"
-
-#: app_portfolio/templates/partials/navbar.html:41
-msgid "Download CV"
-msgstr "Télécharger CV"
 
 #: portfolio/settings.py:150
 msgid "Spanish"
@@ -1309,3 +1293,15 @@ msgstr ""
 #: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:248
 msgid "Connect, get help, or contribute"
 msgstr ""
+
+#~ msgid "I am"
+#~ msgstr "Je suis"
+
+#~ msgid ""
+#~ "Each project is a journey where curiosity and creativity intertwine, "
+#~ "guiding me through challenges towards ingenious solutions and exceptional "
+#~ "digital experiences."
+#~ msgstr ""
+#~ "Chaque projet est un voyage où la curiosité et la créativité "
+#~ "s'entremêlent, me guidant à travers les défis vers des solutions "
+#~ "ingénieuses et des expériences numériques exceptionnelles."
