@@ -87,15 +87,15 @@ body {
   font-family: monospace;
   white-space: nowrap;
   border-right: 3px solid;
-  width: 48ch;
+  width: 50ch;
   overflow: hidden;
 
-  animation: typing 15s steps(48) infinite, blink .6s infinite step-end alternate, erase 15s steps(48) infinite;
+  animation: typing 15s steps(50) infinite, blink .6s infinite step-end alternate, erase 15s steps(50) infinite;
 }
 
 @keyframes typing {
   0%, 30%, 100% { width: 0 }
-  40%, 70% { width: 48ch }
+  40%, 70% { width: 50ch }
 }
 
 @keyframes blink {
@@ -103,7 +103,7 @@ body {
 }
 
 @keyframes erase {
-  0%, 30%, 100% { width: 48ch }
+  0%, 30%, 100% { width: 50ch }
   40%, 70% { width: 0 }
 }
 
