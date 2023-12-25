@@ -32,7 +32,10 @@ body {
   border: 1px solid #008cffad;
   cursor: pointer;
 }
-
+.nav-link:hover{
+  color: #fff; /* Nuevo color al hacer hover */
+  transition: color 0.3s ease; /* Agrega una transición suave para hacer el cambio de color más gradual */
+}
 /* Dimensiones imagen post_detail */
 .img-sm {
   max-width: 50%; 
