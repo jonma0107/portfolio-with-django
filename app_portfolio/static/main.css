@@ -19,6 +19,7 @@ body {
 .profile {
   width: 250px;
   height: 350px;
+  border: 2px solid #008cffad;
 }
 
 /* POSTS */
@@ -28,13 +29,16 @@ body {
 
 /* HOVER */
 .card-project:hover {
-  border: 1px solid rgb(13, 202, 240);
+  border: 1px solid #008cffad;
   cursor: pointer;
 }
 
 /* Dimensiones imagen post_detail */
 .img-sm {
-  max-width: 50%; /* Puedes ajustar el porcentaje según tus necesidades */
+  max-width: 50%; 
+}
+.border-post{
+border: 2px solid #008cffad;
 }
 
 /* BUTTON */
@@ -60,7 +64,7 @@ body {
   top: 0;
   left: 0;
   border-radius: 10px;
-  background: linear-gradient(320deg, rgba(0, 140, 255, 0.678), rgba(128, 0, 128, 0.308));
+  background: linear-gradient(320deg, #008cffad, rgba(128, 0, 128, 0.308));
   z-index: 1;
   transition: background 3s;
 }
@@ -89,6 +93,7 @@ body {
   border-right: 3px solid;
   width: 50ch;
   overflow: hidden;
+  color: #008cffad;
 
   animation: typing 15s steps(50) infinite, blink .6s infinite step-end alternate, erase 15s steps(50) infinite;
 }
@@ -105,6 +110,10 @@ body {
 @keyframes erase {
   0%, 30%, 100% { width: 50ch }
   40%, 70% { width: 0 }
+}
+
+.fullStack-color{
+  color: #008cffad;
 }
 
 /* MEDIA QUERYS */

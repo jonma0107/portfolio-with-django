@@ -6,9 +6,9 @@
   <h1 class="text-center">{{post.title}} </h1>
 
   <h2 class="my-2 h5">{{post.date|date:'F jS Y'}}</h2>
-  <img src="{{post.image.url}}" alt="{{post.title}}" class="img-fluid rounded-circle img-sm mt-4 border border-info border-3 shadow-lg"/>
+  <img src="{{post.image.url}}" alt="{{post.title}}" class="img-fluid rounded-circle img-sm m-3 border-post"/>
 
-  <div class="my-4">
+  <div>
     <p>{{post.content|safe}}</p>
   </div>
 </div>
