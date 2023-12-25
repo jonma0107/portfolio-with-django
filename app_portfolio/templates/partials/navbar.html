@@ -16,7 +16,7 @@
       <ul class="navbar-nav ms-auto d-flex align-items-center"> <!-- mover a la derecha --> 
 
         <li class="nav-item">
-          <a class="nav-link" href="{% url 'post:post' %}">Blog</a>
+          <a class="nav-link" href="{% url 'post:post' %}"><h5>Blog</h5></a>
         </li>      
         
         <li class="nav-item">
@@ -36,11 +36,7 @@
           <input type="submit" value= {% trans "Go" %} class="btn btn-primary py-1">
         </form>
         </li>            
-        
-        <li class="nav-item">
-          <a class="btn btn-primary btn-block mx-2 py-1" href="{% static 'files/resume.pdf' %}" target="_blank" style="width: 90%;"> {% trans "Download CV" %} </a>
-        </li>
-               
+                       
       </ul>      
     </div>
 

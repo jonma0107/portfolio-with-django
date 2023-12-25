@@ -14,19 +14,22 @@
   
   <div class="col-md-8 m-auto">
     <h1> {% trans "I am" %} <strong>Jonathan Meza</strong></h1>
-    <span><h3>Python FullStack Developer</h3></span>
+    <div class="fullStack">
+      <h3>Python FullStack Developer.</h3>
+    </div>
     <p>
       {% blocktrans trimmed %}
       Full-stack developer specialized in Python with a strong background in software engineering and proven experience in the design, development and implementation of complete and efficient web applications. My versatile approach has allowed me to contribute to both client-side and server-side development, providing comprehensive and functional solutions.
       {% endblocktrans %}      
     </p>    
+    <a class="btn my-3 btn-lg buttonHover" href="{% static 'files/resume.pdf' %}" target="_blank"> {% trans "Download CV" %} </a>
   </div>  
 </header>
 <hr class="my-4">
 
 {% comment %} RECORRER LA CONSULTA {% endcomment %}
 
-<div class="row my-4 text-center">
+<div class="row mt-4 text-center">
 
   <h3> {% trans "My Projects" %} </h3>
   <p>

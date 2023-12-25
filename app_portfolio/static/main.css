@@ -1,5 +1,6 @@
 body {
   background: #090909;
+
 }
 .bg-black {
   background: #000;
@@ -18,6 +19,11 @@ body {
 .profile {
   width: 250px;
   height: 350px;
+}
+
+/* POSTS */
+.title-posts {
+  padding-top: 85px;
 }
 
 /* HOVER */
@@ -75,24 +81,95 @@ body {
 }
 
 /* SPAN */
-span {
+
+.fullStack {
   display: block;
   font-family: monospace;
   white-space: nowrap;
-  border-right: 2px solid;
-  width: 47ch;
+  border-right: 3px solid;
+  width: 48ch;
   overflow: hidden;
 
-  animation: typing 15s steps(47) infinite, blink .6s infinite step-end alternate;
+  animation: typing 15s steps(48) infinite, blink .6s infinite step-end alternate, erase 15s steps(48) infinite;
 }
 
 @keyframes typing {
-  0%, 30% { width: 0 }
-  40%, 100% { width: 47ch}
+  0%, 30%, 100% { width: 0 }
+  40%, 70% { width: 48ch }
 }
 
 @keyframes blink {
   50% { border-color: transparent }
 }
 
+@keyframes erase {
+  0%, 30%, 100% { width: 48ch }
+  40%, 70% { width: 0 }
+}
 
+/* MEDIA QUERYS */
+
+@media (max-width: 1060px) {
+  .fullStack {
+    animation: none; /* Desactivar la animación */
+    border-right: hidden;
+  }
+}
+
+@media (max-width: 1000px) {
+  .col-md-8 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+/* Consulta de medios para centrar y ajustar el contenido de fullStack en pantallas más pequeñas */
+@media (max-width: 1000px) {
+  .fullStack {
+    text-align: center;
+    max-width: 100%; /* Evita que se expanda más allá del ancho de la pantalla */
+    margin-left: auto;
+    margin-right: auto;
+    
+    white-space: wrap;
+  }
+}
+
+/* Consulta de medios para apilar elementos uno debajo del otro en pantallas más pequeñas */
+@media (max-width: 400px) and (min-width: 401px), (max-width: 1061px) {
+  .container .d-flex {
+    flex-direction: column;
+    align-items: center; /* Opcional: para centrar horizontalmente */
+  }
+
+  .container .d-flex .btn {
+    margin-bottom: 10px; /* Ajusta el espacio entre los botones según sea necesario */
+  }
+}
+
+/* Consulta de medios para colocar elementos uno encima del otro en pantallas más pequeñas */
+@media (max-width: 1000px) {
+  .m-4 .card-project .row {
+    flex-direction: column;
+    align-items: center; /* Opcional: para centrar horizontalmente */
+    
+  }
+}
+
+@media (max-width: 768px) {
+  .m-4 .card-project .row {
+    flex-direction: column;
+    text-align: center;
+    max-width: 100%; /* Evita que se expanda más allá del ancho de la pantalla */
+    margin-left: auto;
+    margin-right: auto;   
+    white-space: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .posts{
+    display: none;
+  }
+}
