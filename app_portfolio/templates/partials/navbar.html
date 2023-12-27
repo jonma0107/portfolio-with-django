@@ -6,17 +6,31 @@
   
   <div class="container">
     <a class="navbar-brand fw-bold fst-normal" href="/"><img class="logo" src="{% static 'files/logo.png' %}" alt="logo">onathan Meza</a>
-
     
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto d-flex align-items-center"> <!-- mover a la derecha --> 
+
+      <ul class="navbar-nav ms-auto d-flex align-items-center"> <!-- mover a la derecha -->
+        
+        {% if not blog_clicked %}
+          <li class="nav-item">
+            <a href="#home" class="nav-link">
+              <h5>Home</h5>           
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">
+              <h5>Projects</h5>           
+            </a>
+          </li>
+        {% endif %}
 
         <li class="nav-item">
-          <a class="nav-link" href="{% url 'post:post' %}"><h5>Blog</h5></a>
+          <a class="nav-link" href="{% url 'post:post' %}?blog_clicked=true"><h5>Blog</h5></a>
         </li>      
         
         <li class="nav-item">
@@ -39,7 +53,6 @@
                        
       </ul>      
     </div>
-
     
   </div>
   

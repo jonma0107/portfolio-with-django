@@ -7,7 +7,8 @@ def post(request):
   Consultar a la base de datos
   """
   posts= Post.objects.all()
-  return render(request, 'posts.html', {'posts':posts})
+  blog_clicked = request.GET.get('blog_clicked', False)
+  return render(request, 'posts.html', {'posts':posts, 'blog_clicked': blog_clicked})
 
 def post_detail(request, post_id):
   """
@@ -15,5 +16,6 @@ def post_detail(request, post_id):
   para retornar una publicación
   """
   post=get_object_or_404(Post, pk=post_id)
-  return render(request, 'post_detail.html', {'post':post})
+  blog_clicked = request.GET.get('blog_clicked', False)
+  return render(request, 'post_detail.html', {'post':post, 'blog_clicked': blog_clicked})
 

@@ -1,9 +1,10 @@
-{% extends 'layout.html' %}
+{% extends 'layout.html' %} 
 
-{% load i18n %}
+{% load i18n %} 
 
 {% block content %}
-<h1 class="text-center title-posts"> {% trans "POSTS" %} </h1>
+
+<h1 class="text-center title-posts">{% trans "POSTS" %}</h1>
 
 {% for post in posts %}
 
@@ -11,21 +12,27 @@
   <div class="card card-body bg-black card-project">
     <div class="row">
       <div class="col-3">
-        <img src="{{post.image.url}}" alt="{{post.title}}" class="posts img-fluid"/>
+        <img
+          src="{{post.image.url}}"
+          alt="{{post.title}}"
+          class="posts img-fluid"
+        />
       </div>
       <div class="col-9">
         <h2>{{post.title}}</h2>
         <p>{{post.description|truncatechars:50}}</p>
-        <h5 style="font-style: italic;" >{{post.date|date:'M d Y'|upper}}</h5>
-        <a href="{% url 'post:post_detail' post.id %}" class="buttonHover rounded-0 btn-sm btn"> {% trans "Read more" %} </a>        
+        <h5 style="font-style: italic">{{post.date|date:'M d Y'|upper}}</h5>
+        <a
+          href="{% url 'post:post_detail' post.id %}?blog_clicked=true"
+          class="buttonHover rounded-0 btn-sm btn"
+        >
+          {% trans "Read more" %}
+        </a>
       </div>
     </div>
-  
   </div>
 </div>
 
-{% endfor %}
+{% endfor %} 
 
 {% endblock content %}
-
-

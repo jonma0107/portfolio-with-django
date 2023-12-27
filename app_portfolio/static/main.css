@@ -150,12 +150,12 @@ border: 2px solid #008cffad;
 
 /* Consulta de medios para apilar elementos uno debajo del otro en pantallas más pequeñas */
 @media (max-width: 400px) and (min-width: 401px), (max-width: 1061px) {
-  .container .d-flex {
+  .d-flex {
     flex-direction: column;
     align-items: center; /* Opcional: para centrar horizontalmente */
   }
 
-  .container .d-flex .btn {
+  .d-flex .btn {
     margin-bottom: 10px; /* Ajusta el espacio entre los botones según sea necesario */
   }
 }
@@ -185,3 +185,16 @@ border: 2px solid #008cffad;
     display: none;
   }
 }
+
+@media (max-width: 1355px) {
+  .git-demo {
+    flex-direction: column;
+    text-align: center;
+    max-width: 100%; /* Evita que se expanda más allá del ancho de la pantalla */
+    margin-left: auto;
+    margin-right: auto;   
+    white-space: wrap;
+    gap: 15px;
+  }
+}
+
