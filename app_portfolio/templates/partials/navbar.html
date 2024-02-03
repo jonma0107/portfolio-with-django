@@ -13,23 +13,25 @@
 
     <div class="collapse navbar-collapse" id="navbarNav">
 
-      <ul class="navbar-nav ms-auto d-flex align-items-center"> <!-- mover a la derecha -->
+      <ul class="navbar-nav me-auto d-flex align-items-center"> <!-- mover a la derecha -->
+
+        <li class="nav-item">
+          <a href="{% url 'home' %}" class="nav-link">
+            <h5 class="mb-1">Home</h5>           
+          </a>
+        </li>
         
         {% if not blog_clicked %}
-          <li class="nav-item">
-            <a href="#home" class="nav-link">
-              <h5>Home</h5>           
-            </a>
-          </li>
+          
 
           <li class="nav-item">
             <a href="#projects" class="nav-link">
-              <h5>Projects</h5>           
+              <h5 class="mb-1">Projects</h5>           
             </a>
           </li>
         {% endif %}
 
-        <li class="nav-item">
+        {% comment %} <li class="nav-item">
           <a class="nav-link" href="{% url 'post:post' %}?blog_clicked=true"><h5>Blog</h5></a>
         </li>      
         
@@ -49,9 +51,32 @@
           </select>
           <input type="submit" value= {% trans "Go" %} class="btn btn-primary py-1">
         </form>
-        </li>            
+        </li>             {% endcomment %}
                        
       </ul>      
+      <ul class="navbar-nav ms-auto d-flex align-items-center">
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'post:post' %}?blog_clicked=true"><h5 class="mb-1">Blog</h5></a>
+        </li>      
+        
+        <li class="nav-item">
+        <form action="{% url 'set_language' %}" method="post">
+          {% csrf_token %}
+          <input name="next" type="hidden" value="{{ redirect_to }}">
+          <select name="language">
+              {% get_current_language as LANGUAGE_CODE %}
+              {% get_available_languages as LANGUAGES %}
+              {% get_language_info_list for LANGUAGES as languages %}
+              {% for language in languages %}
+                  <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+                      {{ language.name_local }} ({{ language.code }})
+                  </option>
+              {% endfor %}
+          </select>
+          <input type="submit" value= {% trans "Go" %} class="btn btn-primary py-0 mb-1">
+        </form>
+        </li>         
+      </ul>
     </div>
     
   </div>
