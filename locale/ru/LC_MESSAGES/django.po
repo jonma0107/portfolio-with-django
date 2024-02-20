@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-25 16:13+0900\n"
+"POT-Creation-Date: 2024-02-21 07:56+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,42 +28,59 @@ msgstr ""
 msgid "contenido"
 msgstr ""
 
-#: app_blog/templates/posts.html:6
+#: app_blog/templates/posts.html:7
 msgid "POSTS"
-msgstr "Паблик Рилейшнз"
+msgstr ""
 
-#: app_blog/templates/posts.html:20
+#: app_blog/templates/posts.html:29
 msgid "Read more"
-msgstr "Читать далее"
+msgstr ""
 
 #: app_portfolio/models.py:8
 msgid "descripcion"
 msgstr ""
 
-#: app_portfolio/templates/home.html:21
+#: app_portfolio/templates/home.html:33
 msgid ""
-"Full stack developer specialized in Python with a solid background in "
-"software engineering and proven experience in the design, development and "
-"implementation of efficient web applications. I contribute in both front-end "
-"and back-end development thanks to my versatile approach, providing complete "
-"and functional solutions."
-msgstr "Разработчик полного стека, специализирующийся на Python, с солидным опытом в области разработки программного обеспечения и доказанным опытом в проектировании, разработке и внедрении эффективных веб-приложений. Благодаря разностороннему подходу я участвую в разработке как front-end, так и back-end, предлагая комплексные и функциональные решения."
+"I am a full stack developer specialized in Python with experience gained "
+"working at TICSocial S.A.S., a Colombian software development company for "
+"the health sector. I have cultivated solid skills in design patterns, "
+"software architecture and documentation. My versatile approach spans both "
+"front-end, where I use JavaScript and React, and back-end, using Python and "
+"Django. I am also dabbling in exploring AWS services to implement Continuous "
+"Delivery and Continuous Deployment (CI/CD) practices. My commitment to "
+"constant updating and innovation reflect my willingness to contribute to "
+"challenging projects that further my professional growth. Never stop "
+"learning!"
+msgstr "Я разработчик полного стека, специализирующийся на Python, с опытом работы в TICSocial S.A.S., колумбийской компании по разработке программного обеспечения для сектора здравоохранения. Я приобрел прочные навыки в области паттернов проектирования, архитектуры программного обеспечения и документирования. Мой разносторонний подход охватывает как front-end, где я использую JavaScript и React, так и back-end, где я использую Python и Django. Я также изучаю сервисы AWS для внедрения практик непрерывной доставки и непрерывного развертывания (CI/CD). Мое стремление к постоянному обновлению и инновациям отражает мою готовность участвовать в сложных проектах, способствующих моему профессиональному росту. Никогда не переставайте учиться!"
 
-#: app_portfolio/templates/home.html:25
+#: app_portfolio/templates/home.html:41
 msgid "Download CV"
-msgstr "Скачать резюме"
+msgstr "Скачать CV"
 
-#: app_portfolio/templates/home.html:35
-msgid "My Projects"
-msgstr "Мои проекты"
+#: app_portfolio/templates/home.html:54
+msgid "Personal Projects"
+msgstr "Личные проекты"
 
-#: app_portfolio/templates/home.html:37
+#: app_portfolio/templates/home.html:56
 msgid "Each project is a journey where curiosity and creativity intertwine."
 msgstr "Каждый проект - это путешествие, в котором переплетаются любопытство и творчество."
 
-#: app_portfolio/templates/partials/navbar.html:36
+#: app_portfolio/templates/partials/navbar.html:20
+msgid "Home"
+msgstr "Главная"
+
+#: app_portfolio/templates/partials/navbar.html:29
+msgid "Projects"
+msgstr "Проекты"
+
+#: app_portfolio/templates/partials/navbar.html:60
+msgid "Blog"
+msgstr "Блог"
+
+#: app_portfolio/templates/partials/navbar.html:77
 msgid "Go"
-msgstr "перейти"
+msgstr ""
 
 #: portfolio/settings.py:150
 msgid "Spanish"
@@ -78,14 +95,6 @@ msgid "Japanese"
 msgstr ""
 
 #: portfolio/settings.py:153
-msgid "French"
-msgstr ""
-
-#: portfolio/settings.py:154
-msgid "German"
-msgstr ""
-
-#: portfolio/settings.py:155
 msgid "Russian"
 msgstr ""
 
@@ -1295,15 +1304,3 @@ msgstr ""
 #: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:248
 msgid "Connect, get help, or contribute"
 msgstr ""
-
-#~ msgid "I am"
-#~ msgstr "Я"
-
-#~ msgid ""
-#~ "Each project is a journey where curiosity and creativity intertwine, "
-#~ "guiding me through challenges towards ingenious solutions and exceptional "
-#~ "digital experiences."
-#~ msgstr ""
-#~ "Каждый проект - это путешествие, в котором переплетаются любопытство и "
-#~ "творчество, направляя меня через трудности к гениальным решениям и "
-#~ "исключительному цифровому опыту."

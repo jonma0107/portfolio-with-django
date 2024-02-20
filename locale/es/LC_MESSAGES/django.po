@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-25 15:56+0900\n"
+"POT-Creation-Date: 2024-02-21 07:07+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,41 +26,57 @@ msgstr ""
 msgid "contenido"
 msgstr ""
 
-#: app_blog/templates/posts.html:6
+#: app_blog/templates/posts.html:7
 msgid "POSTS"
-msgstr "PUBLICACIONES"
+msgstr ""
 
-#: app_blog/templates/posts.html:20
+#: app_blog/templates/posts.html:29
 msgid "Read more"
-msgstr "Leer más"
+msgstr ""
 
 #: app_portfolio/models.py:8
 msgid "descripcion"
 msgstr ""
 
-#: app_portfolio/templates/home.html:21
+#: app_portfolio/templates/home.html:33
 msgid ""
-"Full stack developer specialized in Python with a solid background in "
-"software engineering and proven experience in the design, development and "
-"implementation of efficient web applications. I contribute in both front-end "
-"and back-end development thanks to my versatile approach, providing complete "
-"and functional solutions."
-msgstr "Desarrollador full stack especializado en Python con una sólida formación en ingeniería de software y experiencia demostrada en el diseño, desarrollo e implementación de aplicaciones web eficientes. Contribuyo en el desarrollo tanto del front-end como del back-end gracias a mi enfoque versátil, proporcionando soluciones completas y funcionales."
+"I am a full stack developer specialized in Python with experience gained "
+"working at TICSocial S.A.S., a Colombian software development company for "
+"the health sector. I have cultivated solid skills in design patterns, "
+"software architecture and documentation. My versatile approach spans both "
+"front-end, where I use JavaScript and React, and back-end, using Python and "
+"Django. I am also dabbling in exploring AWS services to implement Continuous "
+"Delivery and Continuous Deployment (CI/CD) practices. My commitment to "
+"constant updating and innovation reflect my willingness to contribute to "
+"challenging projects that further my professional growth. Never stop "
+"learning!"
+msgstr "Soy un desarrollador full stack especializado en Python con experiencia adquirida trabajando en TICSocial S.A.S., una empresa Colombiana de desarrollo de software para el sector salud. He cultivado sólidas habilidades en patrones de diseño, arquitectura de software y documentación. Mi enfoque versátil abarca tanto el front-end, donde uso JavaScript y React, como el back-end, usando Python y Django. También estoy incursionando en la exploración de los servicios de AWS para implementar prácticas de Entrega Continua y Despliegue Continuo (CI/CD). Mi compromiso con la actualización constante y la innovación reflejan mi voluntad de contribuir a proyectos desafiantes que fomenten mi crecimiento profesional. ¡Nunca dejes de aprender!"
 
-
-#: app_portfolio/templates/home.html:25
+#: app_portfolio/templates/home.html:41
 msgid "Download CV"
 msgstr "Descargar CV"
 
-#: app_portfolio/templates/home.html:35
-msgid "My Projects"
-msgstr "Mis Proyectos"
+#: app_portfolio/templates/home.html:54
+msgid "Personal Projects"
+msgstr "Proyectos Personales"
 
-#: app_portfolio/templates/home.html:37
+#: app_portfolio/templates/home.html:56
 msgid "Each project is a journey where curiosity and creativity intertwine."
 msgstr "Cada proyecto es un viaje en el que se entrelazan la curiosidad y la creatividad."
 
-#: app_portfolio/templates/partials/navbar.html:36
+#: app_portfolio/templates/partials/navbar.html:20
+msgid "Home"
+msgstr "Inicio"
+
+#: app_portfolio/templates/partials/navbar.html:29
+msgid "Projects"
+msgstr "Proyectos"
+
+#: app_portfolio/templates/partials/navbar.html:60
+msgid "Blog"
+msgstr "Blog"
+
+#: app_portfolio/templates/partials/navbar.html:77
 msgid "Go"
 msgstr "Ir"
 
@@ -1294,15 +1310,3 @@ msgstr ""
 #: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:248
 msgid "Connect, get help, or contribute"
 msgstr ""
-
-#~ msgid "I am"
-#~ msgstr "Soy"
-
-#~ msgid ""
-#~ "Each project is a journey where curiosity and creativity intertwine, "
-#~ "guiding me through challenges towards ingenious solutions and exceptional "
-#~ "digital experiences."
-#~ msgstr ""
-#~ "Cada proyecto es un viaje en el que la curiosidad y la creatividad se "
-#~ "entrelazan, guiándome a través de los retos hacia soluciones ingeniosas y "
-#~ "experiencias digitales excepcionales."

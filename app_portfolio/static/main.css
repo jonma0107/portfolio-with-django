@@ -89,21 +89,25 @@ border: 2px solid #008cffad;
 
 /* SPAN */
 
+/* auto writing */
+
 .fullStack {
   display: block;
-  font-family: monospace;
+  font-family: sans-serif;
   white-space: nowrap;
-  border-right: 3px solid;
-  width: 50ch;
+  border-right: 10px outset;
+  height: 30px;
+  width: 42ch;
+  margin-bottom: 15px;
   overflow: hidden;
   color: #008cffad;
 
-  animation: typing 15s steps(50) infinite, blink .6s infinite step-end alternate, erase 15s steps(50) infinite;
+  animation: typing 15s steps(42) infinite, blink .6s infinite step-end alternate, erase 15s steps(42) infinite;
 }
 
 @keyframes typing {
   0%, 30%, 100% { width: 0 }
-  40%, 70% { width: 50ch }
+  40%, 70% { width: 42ch }
 }
 
 @keyframes blink {
@@ -111,7 +115,7 @@ border: 2px solid #008cffad;
 }
 
 @keyframes erase {
-  0%, 30%, 100% { width: 50ch }
+  0%, 30%, 100% { width: 43ch }
   40%, 70% { width: 0 }
 }
 

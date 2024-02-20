@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-25 16:07+0900\n"
+"POT-Creation-Date: 2024-02-21 07:14+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,42 +26,59 @@ msgstr ""
 msgid "contenido"
 msgstr ""
 
-#: app_blog/templates/posts.html:6
+#: app_blog/templates/posts.html:7
 msgid "POSTS"
-msgstr "出版物"
+msgstr ""
 
-#: app_blog/templates/posts.html:20
+#: app_blog/templates/posts.html:29
 msgid "Read more"
-msgstr "もっと読む"
+msgstr ""
 
 #: app_portfolio/models.py:8
 msgid "descripcion"
 msgstr ""
 
-#: app_portfolio/templates/home.html:21
+#: app_portfolio/templates/home.html:33
 msgid ""
-"Full stack developer specialized in Python with a solid background in "
-"software engineering and proven experience in the design, development and "
-"implementation of efficient web applications. I contribute in both front-end "
-"and back-end development thanks to my versatile approach, providing complete "
-"and functional solutions."
-msgstr "Pythonに特化したフルスタック開発者であり、ソフトウェアエンジニアリングの確かなバックグラウンドと、効率的なWebアプリケーションの設計、開発、実装における実証済みの経験を持つ。多才なアプローチでフロントエンドとバックエンドの開発に貢献し、完全かつ機能的なソリューションを提供しています。"
+"I am a full stack developer specialized in Python with experience gained "
+"working at TICSocial S.A.S., a Colombian software development company for "
+"the health sector. I have cultivated solid skills in design patterns, "
+"software architecture and documentation. My versatile approach spans both "
+"front-end, where I use JavaScript and React, and back-end, using Python and "
+"Django. I am also dabbling in exploring AWS services to implement Continuous "
+"Delivery and Continuous Deployment (CI/CD) practices. My commitment to "
+"constant updating and innovation reflect my willingness to contribute to "
+"challenging projects that further my professional growth. Never stop "
+"learning!"
+msgstr "コロンビアの医療分野向けソフトウェア開発会社TICSocial S.A.S.で経験を積んだPython専門のフルスタック開発者です。デザインパターン、ソフトウェアアーキテクチャー、ドキュメンテーションにおいて確かなスキルを培ってきました。私の多才なアプローチは、JavaScriptとReactを使うフロントエンドと、PythonとDjangoを使うバックエンドの両方に及びます。また、継続的デリバリーと継続的デプロイメント（CI/CD）を実践するために、AWSのサービスにも手を出しています。常に更新し、革新し続けるという私のコミットメントは、プロフェッショナルとしての成長を促進するチャレンジングなプロジェクトに貢献したいという私の意志を反映しています。学ぶことを止めない！"
 
-#: app_portfolio/templates/home.html:25
+#: app_portfolio/templates/home.html:41
 msgid "Download CV"
 msgstr "履歴書ダウンロード"
 
-#: app_portfolio/templates/home.html:35
-msgid "My Projects"
-msgstr "私のプロジェクト"
+#: app_portfolio/templates/home.html:54
+msgid "Personal Projects"
+msgstr "パーソナル・プロジェクト"
 
-#: app_portfolio/templates/home.html:37
+#: app_portfolio/templates/home.html:56
 msgid "Each project is a journey where curiosity and creativity intertwine."
-msgstr "どのプロジェクトも好奇心と創造性が絡み合う旅です。"
+msgstr "どのプロジェクトも、好奇心と創造性が絡み合う旅なのだ。"
 
-#: app_portfolio/templates/partials/navbar.html:36
+#: app_portfolio/templates/partials/navbar.html:20
+msgid "Home"
+msgstr "ホーム"
+
+#: app_portfolio/templates/partials/navbar.html:29
+msgid "Projects"
+msgstr "プロジェクト"
+
+#: app_portfolio/templates/partials/navbar.html:60
+msgid "Blog"
+msgstr "ブログ"
+
+#: app_portfolio/templates/partials/navbar.html:77
 msgid "Go"
-msgstr "行く"
+msgstr ""
 
 #: portfolio/settings.py:150
 msgid "Spanish"
@@ -1293,14 +1310,3 @@ msgstr ""
 #: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:248
 msgid "Connect, get help, or contribute"
 msgstr ""
-
-#~ msgid "I am"
-#~ msgstr "私は"
-
-#~ msgid ""
-#~ "Each project is a journey where curiosity and creativity intertwine, "
-#~ "guiding me through challenges towards ingenious solutions and exceptional "
-#~ "digital experiences."
-#~ msgstr ""
-#~ "どのプロジェクトも、好奇心と創造性が絡み合う旅であり、独創的なソリューショ"
-#~ "ンと卓越したデジタル体験へと課題を導いてくれる。"

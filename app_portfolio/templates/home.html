@@ -11,7 +11,13 @@
     <div class="col-md-4 d-flex align-items-center justify-content-center">
       <!-- mover a la derecha -->
       <img
-        class="profile rounded my-5"
+        class="profile my-5"
+        style="border-radius: 50%; 
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;"
         src="{% static 'files/perfil2.webp' %}"
         alt="profile"
       />
@@ -23,17 +29,13 @@
         <h3 class="fullStack-color">Python Full Stack Developer.</h3>
       </div>
 
-      <p>
-        {% blocktrans trimmed %} Full stack developer specialized in Python with
-        a solid background in software engineering and proven experience in the
-        design, development and implementation of efficient web applications. I
-        contribute in both front-end and back-end development thanks to my
-        versatile approach, providing complete and functional solutions. 
+      <p style="text-align: justify">
+        {% blocktrans trimmed %} I am a full stack developer specialized in Python with experience gained working at TICSocial S.A.S., a Colombian software development company for the health sector. I have cultivated solid skills in design patterns, software architecture and documentation. My versatile approach spans both front-end, where I use JavaScript and React, and back-end, using Python and Django. I am also dabbling in exploring AWS services to implement Continuous Delivery and Continuous Deployment (CI/CD) practices. My commitment to constant updating and innovation reflect my willingness to contribute to challenging projects that further my professional growth. Never stop learning!
         {% endblocktrans %}
       </p>
       <a
         class="btn my-3 btn-lg buttonHover"
-        href="{% static 'files/resume.pdf' %}"
+        href="https://curriculum-vitae-jonathan-meza.netlify.app/"
         target="_blank"
       >
         {% trans "Download CV" %}
@@ -48,7 +50,7 @@
 
 <section id="projects" class="pt-5">
   <div class="row text-center">
-    <h3>{% trans "My Projects" %}</h3>
+    <h3>{% trans "Personal Projects" %}</h3>
     <p>
       {% blocktrans trimmed %} Each project is a journey where curiosity and
       creativity intertwine. {% endblocktrans %}
